@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    height:100%;
+    width:100%;
+    position:absolute;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .panel {
+    justify-content: center;
+    background-color: white;
+    width:350px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ 
+  
+  .input-group {
+    text-align: center;
+  }
+  
+  .input-box {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .Login-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .reg-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .four-btn {
+    text-align: center;
+    width:auto;
+    max-width:400px;
+    margin-top:20px;
+
+  }
+  
+  .four-btn button {
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+  }
+  .gotAcc{
+    border:none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .gotAcc:hover{
+    color: grey;
+  }
+ 
+  .schoolReg,
+  .volunteerReg,
+  .organisationrReg,
+  .donorReg, .four-btn{
+    display: none;
+  }
